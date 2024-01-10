@@ -17,9 +17,9 @@ const BannerService = () => {
                 <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                     <Grid xs={2} sm={4} md={4}>
                         <div
-                            // data-cursor-img={solutions[0].image}
-                            data-cursor-video="https://storage.googleapis.com/bucket-playground-tal/shishirTemp/scrolling-through-pinterest-SBV-300154750-HD.mp4
-                            "
+                             data-cursor-img={solutions[0].image}
+                            // data-cursor-video="https://storage.googleapis.com/bucket-playground-tal/shishirTemp/scrolling-through-pinterest-SBV-300154750-HD.mp4
+                            // "
                         >
                             <>
 
@@ -54,7 +54,8 @@ const BannerService = () => {
                     </Grid>
                     <Grid xs={2} sm={4} md={4}>
                         <div
-                            data-cursor-video="https://storage.googleapis.com/bucket-playground-tal/shishirTemp/Mind%20School%20App%202.mp4"
+                        data-cursor-img={solutions[1].image}
+                            // data-cursor-video="https://storage.googleapis.com/bucket-playground-tal/shishirTemp/Mind%20School%20App%202.mp4"
                         >
                             <>
 
@@ -88,7 +89,8 @@ const BannerService = () => {
                     </Grid>
                     <Grid xs={2} sm={4} md={4}>
                         <div
-                            data-cursor-video="https://storage.googleapis.com/bucket-playground-tal/shishirTemp/marketing.mp4"
+                            // data-cursor-video="https://storage.googleapis.com/bucket-playground-tal/shishirTemp/marketing.mp4"
+                            data-cursor-img={solutions[2].image}
                         >
                             <>
 
